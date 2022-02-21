@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-section">
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="search-input" name="search-city" placeholder="Tìm kiếm thành phố" />
+            </div>
+            <div class="info-wrapper">
+                <p class="city-name hide"></p>
+                <p class="weather-state hide"></p>
+                <img class="weather-icon hide" src="" alt="weather icon" />
+                <p class="temperature hide"></p>
+            </div>
+        </div>
+        <div class="additinal-section hide">
+            <div class="row">
+                <div class="item">
+                    <div class="label">Mt mọc</div>
+                    <div class="value sunrise"></div>
+                </div>
+                <div class="item">
+                    <div class="label">Mt lặn</div>
+                    <div class="value sunset"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <div class="label">Độ ẩm</div>
+                    <div class="value humidity"></div>
+                </div>
+                <div class="item">
+                    <div class="label">Gió</div>
+                    <div class="value windspeed"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./assets/js/script.js "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js " integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin=" anonymous " referrerpolicy="no-referrer "></script>
+
+</html>
