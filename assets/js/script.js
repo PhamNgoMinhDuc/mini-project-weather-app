@@ -16,7 +16,7 @@ let additinal = document.querySelector(".additinal-section");
 
 searchInput.addEventListener("change", (e) => {
     fetch(
-        "http://api.openweathermap.org/data/2.5/weather?q=" +
+        "https://api.openweathermap.org/data/2.5/weather?q=" +
         e.target.value +
         "&appid=" +
         APP_ID +
